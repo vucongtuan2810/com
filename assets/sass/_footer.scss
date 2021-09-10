@@ -1,0 +1,101 @@
+.footer {
+    width: 100%;
+    height: 100%;
+    background-image: url(.././img/parallax-7.jpg);
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 80px 0;
+    &__header {
+        height: 130px;
+    }
+    &__content {
+        padding: 35px 0 37px 46px;
+        background-color: var(--white-color);
+    }
+    &__logo {
+        width: 150px;
+        height: 35px;
+        margin-bottom: 34px;
+    }
+    &__text {
+        color: #939393;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        line-height: 2.7rem;
+        margin: 0 0 24px;
+    }
+    &__container {
+        height: 100%;
+        padding: 35px 45px 35px 0;
+        background-color: var(--white-color);
+    }
+    &__social {
+        &-link {
+            display: block;
+        }
+        &-img {
+            width: 22px;
+            height: 22px;
+            margin-right: 20px;
+        }
+    }
+    &__wrapper {
+        padding: 12px 16px;
+    }
+    &__heading {
+        color: #555;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.4rem;
+        letter-spacing: 0.2rem;
+        text-align: left;
+        margin: 0 0 34px;
+    }
+    &__list {
+        list-style: none;
+        padding-left: 0;
+    }
+    &__item {
+        &-icon {
+            width: 10px;
+            height: 10px;
+        }
+        &-text {
+            margin-left: 4px;
+            font-size: 1.4rem;
+            line-height: 2.7rem;
+            letter-spacing: 0.1rem;
+            color: #9a9a9a;
+        }
+    }
+    &__copyright {
+        background-color: var(--aqua-color);
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--white-color);
+        letter-spacing: 0.2rem;
+        line-height: 1.2rem;
+        padding: 20px;
+        margin: 0;
+        &--left {
+            text-align: left;
+        }
+        &--right {
+            text-align: right;
+        }
+    }
+}
+
+.socials {
+    list-style: none;
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}

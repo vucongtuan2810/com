@@ -1,0 +1,19 @@
+.show-all-packages {
+    height: 235px;
+    background-image: url(.././img/parallax-search-2.jpg);
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    &__text {
+        color: var(--white-color);
+        font-size: 50px;
+        line-height: 50px;
+    }
+    &__btn {
+        padding: 16px 34px;
+    }
+}

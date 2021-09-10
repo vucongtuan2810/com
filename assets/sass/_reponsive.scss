@@ -1,0 +1,187 @@
+/* Tablet - Mobile resolution */
+@media (max-width: 1123px) {
+    .small-section {
+        width: 100%;
+        &__btn {
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            margin-top: 32px;
+        }
+    }
+    .content {
+        background-size: cover; 
+        height: 1200px;
+        background-position: 0;
+    }
+    .header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 0;
+        height: 120px;
+        &__logo {
+            margin-right: 0;
+            margin: 16px 0;
+        }
+    }
+    .nav {
+        display: none;
+    }
+    .menu {
+        margin-left: 0;
+        &__container {
+            display: none;
+        }
+        &-mobile {
+            display: block;
+        }
+    }
+    .search {
+        &__select {
+            width: 600px;
+        }
+    }
+    .typologie {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        &__list {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+        }
+        &__item {
+            width: 610px;
+        }
+    }
+    .show-all-packages {
+        height: 321px;
+    }
+    .tour {
+        &__btn {
+            margin-bottom: 32px;
+        }
+        &__options {
+            gap: 32px
+        }
+    }
+    .promotion {
+        &__list {
+            gap: 32px;
+        }
+        &__type {
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+        }
+        &__price {
+            -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                    flex-grow: 1;
+            float: right;
+        }
+    }
+    .footer {
+        height: 1450px;
+        background-size: cover;
+        &__content {
+            margin-top: 64px;
+        }
+        &__container {
+            height: 100%;
+            padding-left: 40px;
+        }
+    }
+}
+
+/* PC medium resolution > */
+@media (min-width: 1124px) and (max-width: 1199px) {
+    .header {
+        padding: 29px 28px 38px;
+    }
+    .nav__link {
+        padding: 25px 10px;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .header {
+        padding: 29px 40px 38px;
+    }
+    .nav__link {
+        padding: 25px 15px;
+    }
+}
+
+/* Mobile resolution */
+@media (max-width: 739px) {
+    .content {
+        height: 1350px;
+    }
+    .search {
+        &__select {
+            width: 300px;
+        }
+        &__heading {
+            line-height: 6rem;
+        }
+    }
+    .typologie {
+        &__item {
+            width: 240px;
+        }
+    }
+    .proposal {
+        padding: 60px 64px 76px;
+    }
+    .tour {
+        padding: 75px 64px;
+        &__slide {
+            margin-bottom: 60px;
+        } 
+        &-slide__img { 
+            height: auto;
+            top: 0;
+        }
+        &-time {
+            position: relative;
+            left: 0;
+            -webkit-transform: translate(0,0);
+                -ms-transform: translate(0,0);
+                    transform: translate(0,0);
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            &__item {
+                width: 100%;
+                height: 100px;
+                &:not(:first-child)::before {
+                    display: none;
+                }
+            }
+        }
+    }
+    .promotions {
+        padding: 0 64px;
+    }
+    .footer {
+        height: 1700px;
+        padding: 0 64px;
+        &__content {
+            padding: 35px 40px;
+        }
+        &__container {
+            padding: 0 40px;
+        }
+        &__copyright {
+            text-align: center;
+        }
+    }
+}

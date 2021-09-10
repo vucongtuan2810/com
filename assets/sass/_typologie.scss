@@ -1,0 +1,55 @@
+.typologie {
+    text-align: center;
+    &__list {
+        list-style: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 0;
+    }
+    &__item {
+        width: 113px;
+        height: 105px;
+        background: rgba(0, 0, 0, 0.2);
+        margin: 16px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 20px;
+    }
+    &__link {
+        text-decoration: none;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        color: var(--white-color);
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        align-items: center;
+    }
+    &__img {
+        width: 40px;
+        height: 40px;
+        -o-object-fit: cover;
+           object-fit: cover;
+        margin-bottom: 8px;
+    }
+}

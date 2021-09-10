@@ -1,0 +1,57 @@
+.buy-now {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--text-color);
+    padding: 10px;
+    color: var(--white-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+       -ms-flex-align: center;
+          align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-decoration: none;
+    z-index: 1;
+    &__price {
+        position: relative;
+        font-size: 2.5rem;   
+        display: block;
+        margin-top: 8px;
+    }
+    &__dollar {
+        position: absolute;
+        font-size: 0.8rem;
+        left: -5px;
+        top: -11px;
+    }
+    &__label {
+        position: absolute;
+        background-color: var(--red-color);
+        color: var(--white-color);
+        font-size: 0.8rem;
+        line-height: 1rem;
+        letter-spacing: 0.1rem;
+        padding: 3px 5px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        top: 0;
+        text-transform: uppercase;
+    }
+    &__img {
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        left: -16px;
+        bottom: 0;
+        background-color: var(--text-color);
+        padding: 10px;
+        border-radius: 50%;
+    }
+}
